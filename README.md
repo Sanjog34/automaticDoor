@@ -18,7 +18,7 @@ The arena of the competition is simple. Two line folllowing bots race with each 
  
  ![img](https://github.com/Sanjog34/automaticDoor/blob/main/images/function.png)
 
- *   Distance function returns the distance read by two ultrasonic sensors.
+ *   checkDistance function returns the distance read by two ultrasonic sensors.
  *   openGate function opens the gate.
  *   closeGate function closes the gate.
 
