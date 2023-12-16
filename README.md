@@ -16,9 +16,9 @@ The arena of the competition is simple. Two line folllowing bots race with each 
  Arduino uno is capable of reading or controlling data fron only one device at a time. But we've got two ultrasonic sensors and two servo motors which should be active all the time. If arduino senses vehicle at door 1, the arduino will have to give attention to door 1 for 10 seconds. If within that 10 seconds, vehicle arrived at door 2 the arduino wouldn't even know about it since it is busy executing the code for door 1. So, to solve this, the program is divided into three functions :-
  ![img](https://github.com/Sanjog34/automaticDoor/blob/main/images/functions.png)
 
- :- Distance function returns the distance read by two ultrasonic sensors.
- :- openGate function opens the gate.
- :- closrGate function closes the gate.
+ *   Distance function returns the distance read by two ultrasonic sensors.
+ *   openGate function opens the gate.
+ *   closeGate function closes the gate.
 
  ## void loop function
  ![img](https://github.com/Sanjog34/automaticDoor/blob/main/images/loop.png)
