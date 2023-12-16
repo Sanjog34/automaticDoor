@@ -4,8 +4,8 @@
 #define trigPin2 4
 #include <Servo.h>
 int* checkDistance();
-int openGate();
-int closeGate();
+void openGate(int gateno, long instant);
+void closeGate(int gateno, long instant);
 Servo servo1, servo2;
 int servoPin1 = 9;
 int servoPin2 = 10;
