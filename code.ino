@@ -2,7 +2,7 @@
 #define trigPin1 3
 #define echoPin2 5
 #define trigPin2 4
-#include <Servo.h>
+#include <Servo.h>//library
 int* checkDistance();
 void openGate(int gateno, long instant);
 void closeGate(int gateno, long instant);
@@ -80,9 +80,6 @@ void loop() {
 
 }
 
-
-
-
 int * checkDistance() {
   digitalWrite(trigPin1, LOW);
 
@@ -111,15 +108,6 @@ int * checkDistance() {
   distance[1] = duration2 * 0.0344 / 2;// Expression to calculate
   return distance;
 }
-
-
-
-
-
-
-
-
-
 
 void openGate(int gateno, long instant) {
 

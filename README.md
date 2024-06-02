@@ -6,8 +6,8 @@ The arena of the competition is simple. Two line folllowing bots race with each 
  
 # Electronics
 1. Arduino uno
-2. servo motor x2
-3. ultrasonic sensor x2
+2. Servo motor x2
+3. Ultrasonic sensor x2
 
 
 
